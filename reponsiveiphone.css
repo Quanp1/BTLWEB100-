@@ -7,6 +7,9 @@
     .head-container .action{
         display: block;
     }
+     .head-container .action label{
+        cursor: pointer;
+    }
 
     #checkbox:checked ~ .hamburger {
         right: 0;
