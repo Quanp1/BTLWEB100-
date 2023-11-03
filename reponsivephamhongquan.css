@@ -1,0 +1,118 @@
+@media all and (max-width:600px) {
+    /* nav-bar */
+    .nav-bar{
+        display: none;
+    }
+    .head-container .action{
+        display: block;
+    }
+
+    #checkbox:checked ~ .hamburger {
+        right: 0;
+      }
+  
+      .list-items:nth-child(1){
+        margin-top: 20px;
+      }
+  
+    .list-items {
+        position: relative;
+    }
+    
+    /* Đẩy lùi "Chính sách đổi trả" xuống */
+    .list-items:nth-child(4):hover .item-down {
+        position: absolute;
+        top: 100%; /* Đặt vị trí phần tử con dưới phần tử cha */
+        left: 0;
+        z-index: 1; /* Đảm bảo phần tử con nằm trên các phần tử khác */
+    }
+        
+    /* content */
+    h2 {
+        margin-top: 80px;
+        font-size: 1.25rem;
+    }
+
+    .content {
+        height: 450px;
+        width:90%;
+    }
+
+    .content .info{
+
+    }
+
+    .content .info .float-left {
+
+    }
+
+    .content .info .avatar {
+        height: 200px;
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .content .info .float-left p {
+        font-weight: 600;
+        font-size: 0.75rem;
+        margin: 10px auto;
+    }
+    .content .info .float-left span {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+    .content .info .float-right {
+        width: 50%;
+        margin-right: 20px;
+    }
+    .content .info .float-right div {
+        font-size: 0.65rem;
+    }
+    
+    .content .info .float-right p{
+        font-size: 0.7rem;
+    }
+    /* footer */
+    footer {
+        margin: 40px auto 0;
+    }
+    .shop h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .location p {
+        font-size: 0.65rem;
+        line-height:13px;
+    }
+    .mxh h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .mxh .icons {
+        width: 90%;
+        height: 20px;
+    }
+
+    .mxh ul li {
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 2% 0 0 6%;
+    }
+    .fanpage{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .fanpage h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .fanpage p{
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 3% 0 0;
+    }
+
+
+}

@@ -1,0 +1,118 @@
+@media all and (max-width:600px) {
+    /* nav-bar */
+    .nav-bar{
+        display: none;
+    }
+    .head-container .action{
+        display: block;
+    }
+
+    #checkbox:checked ~ .hamburger {
+        right: 0;
+      }
+  
+      .list-items:nth-child(1){
+        margin-top: 20px;
+      }
+  
+    .list-items {
+        position: relative;
+    }
+    
+    /* Đẩy lùi "Chính sách đổi trả" xuống */
+    .list-items:nth-child(4):hover .item-down {
+        position: absolute;
+        top: 100%; /* Đặt vị trí phần tử con dưới phần tử cha */
+        left: 0;
+        z-index: 1; /* Đảm bảo phần tử con nằm trên các phần tử khác */
+    }
+
+    /* infor */
+    .infor{
+        width: 90%;
+        margin: 80px auto 0;
+        height:300px;
+    }
+    .infor h2{
+        font-size: 1.45rem;
+    }
+    .infor .information{
+        height: 80%;
+    }
+    .infor .information .no1{
+
+    }
+    .infor .information .image{
+
+    }
+    .infor .information .image img{
+
+    }
+
+    .infor .information .no1:hover{
+    }
+
+    .infor .information .no1{
+    }
+
+    .infor .information .no1 .about{
+
+    }
+
+    .infor .information .no1 .about a{
+
+    }
+
+    .infor .information .no1 .about a p{
+        font-size: 0.875rem;
+    }
+
+    .infor .information .no1:hover .about{
+
+    }
+    .infor .information:hover .no1:not(:hover){
+    }
+
+    /* footer */
+    footer {
+        margin: 40px auto 0;
+    }
+    .shop h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .location p {
+        font-size: 0.65rem;
+        line-height:13px;
+    }
+    .mxh h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .mxh .icons {
+        width: 90%;
+        height: 20px;
+    }
+
+    .mxh ul li {
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 2% 0 0 6%;
+    }
+    .fanpage{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .fanpage h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .fanpage p{
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 3% 0 0;
+    }
+
+
+}

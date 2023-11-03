@@ -1,0 +1,213 @@
+@media all and (max-width:600px) {
+
+     /* nav-bar */
+     .nav-bar{
+        display: none;
+    }
+    .head-container .action{
+        display: block;
+    }
+
+    #checkbox:checked ~ .hamburger {
+        right: 0;
+      }
+  
+      .list-items:nth-child(1){
+        margin-top: 20px;
+      }
+  
+  .list-items {
+      position: relative;
+  }
+  
+  /* Đẩy lùi "Chính sách đổi trả" xuống */
+  .list-items:nth-child(4):hover .item-down {
+      position: absolute;
+      top: 100%; /* Đặt vị trí phần tử con dưới phần tử cha */
+      left: 0;
+      z-index: 1; /* Đảm bảo phần tử con nằm trên các phần tử khác */
+  }
+
+    /* banner */
+    #banner  .box-left h2 {
+        font-size: 1.5rem;
+    }
+    
+    #banner .box-left p {
+        font-size: 0.75rem;
+    }
+
+    /* content */
+
+    .content .body{
+        margin:70px auto 0;
+    }
+
+    .content .head{
+        font-size: 1.5rem;
+    }
+
+    .content .body .banner-samsung .element-samsung h2{
+        font-size: 1.5rem;
+    }
+
+    .content .body .banner-samsung .element-samsung p{
+        font-size: 0.75rem;
+    }
+
+    .content .body .banner-samsung .element-samsung span{
+        margin: .3% auto;
+        font-size: min(200%,1.8vw);
+    }
+    
+    .content .body .banner-samsung .element-samsung button{
+        width: 140px;
+        height: 30px;
+    }
+
+    .content .body .banner-iphone .element-iphone h2{
+        font-size: 1.5rem;
+    }
+
+    .content .body .banner-iphone .element-iphone p{
+        font-size: 0.75rem;
+    }
+
+    .content .body .banner-iphone .element-iphone span{
+        margin: .3% auto;
+        font-size: min(200%,1.8vw);
+    }
+    
+    .content .body .banner-iphone .element-iphone button{
+        width: 140px;
+        height: 30px;
+    }
+
+    /* Create-Account */
+    .Create-Account_container{
+        display: block;
+        margin: 50px auto 0;
+        height: 600px;
+    }
+
+
+.Create-Account_container .Create-Account_img{
+    display: none;
+}
+
+.Create-Account_container .Create-Account_form{
+    width: 90%;
+    display: block;
+    margin: 56px auto 0;    
+}
+
+.Create-Account_container .Create-Account_form h2{
+    font-size: 2rem ;
+}
+
+.Create-Account_container .Create-Account_form p{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin-bottom:7px;
+}
+
+.Create-Account_container .Create-Account_form form label{
+    margin-left: 6px;
+}
+
+
+.Create-Account_container .Create-Account_form form input{
+    height: 60px;
+    padding-left: 12px;
+    /* max-width:343px; */
+    margin: 0 0 13px;
+}
+
+.Create-Account_container .Create-Account_form form input:nth-child(11){
+    font-size: 1.375rem;
+}
+
+.Create-Account_container .Create-Account_form .ngancach {
+    max-width: 560px;
+    margin: 18px auto 19px ;
+}
+
+
+.Create-Account_container .Create-Account_form .ngancach span {
+    width:300px;
+    height: 1px;
+}
+
+.Create-Account_container .Create-Account_form .ctnFacebook{
+    height: 60px;
+}
+
+.Create-Account_container .Create-Account_form .ctnFacebook a{
+    max-width: 240px;
+    width: 63%;
+    margin: 13px auto;
+}
+
+.Create-Account_container .Create-Account_form .ctnFacebook a img{
+    width: 32px;
+    height: 33px;
+}
+
+
+.Create-Account_container .Create-Account_form .ctnGoogle{
+    height: 60px;
+}
+
+.Create-Account_container .Create-Account_form .ctnGoogle a{
+    max-width: 240px;
+    width: 63%;
+    margin: 13px auto;
+}
+
+.Create-Account_container .Create-Account_form .ctnGoogle a img{
+    width: 32px;
+    height: 33px;
+}
+
+/* footer */
+footer {
+    margin: 40px auto 0;
+}
+.shop h3{
+    font-size: 1rem;
+    line-height:17px;
+}
+.location p {
+    font-size: 0.65rem;
+    line-height:13px;
+}
+.mxh h3{
+    font-size: 1rem;
+    line-height:17px;
+}
+.mxh .icons {
+    width: 90%;
+    height: 20px;
+}
+
+.mxh ul li {
+    font-size: 0.65rem;
+    line-height:13px;
+    margin: 2% 0 0 6%;
+}
+.fanpage{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.fanpage h3{
+    font-size: 1rem;
+    line-height:17px;
+}
+.fanpage p{
+    font-size: 0.65rem;
+    line-height:13px;
+    margin: 3% 0 0;
+}
+
+}

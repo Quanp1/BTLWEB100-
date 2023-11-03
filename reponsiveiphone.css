@@ -1,0 +1,227 @@
+@media all and (max-width:600px) {
+
+     /* nav-bar */
+     .nav-bar{
+        display: none;
+    }
+    .head-container .action{
+        display: block;
+    }
+
+    #checkbox:checked ~ .hamburger {
+        right: 0;
+      }
+  
+      .list-items:nth-child(1){
+        margin-top: 20px;
+      }
+  
+  .list-items {
+      position: relative;
+  }
+  
+  /* Đẩy lùi "Chính sách đổi trả" xuống */
+  .list-items:nth-child(4):hover .item-down {
+      position: absolute;
+      top: 100%; /* Đặt vị trí phần tử con dưới phần tử cha */
+      left: 0;
+      z-index: 1; /* Đảm bảo phần tử con nằm trên các phần tử khác */
+  }
+
+    /* banner */
+    #banner  .box-left h2 {
+        font-size: 1.5rem;
+    }
+    
+    #banner .box-left p {
+        font-size: 0.75rem;
+    }
+
+    /* banner */
+    #banner{
+        margin-top:80px;
+        height: 450px;
+    }
+    
+    #banner .box{
+
+    }
+
+    #banner .box .head{
+        font-size: 0.875rem;
+    }
+
+    #banner .box .name {
+        font-size: 1.125rem;
+    }
+
+    #banner .box .desc {
+        font-size: 2rem;
+    }
+
+    #banner .box .price{
+        font-size: 1rem;
+    }
+
+    #banner .box button {
+        width: 100px;
+        height: 35px;
+        background:#0077ed;
+    }
+
+    #banner-second {
+        margin-top:80px;
+        height: 475px;
+    }
+    
+    #banner .box{
+
+    }
+
+    #banner-second .box-second .headt{
+        font-size: 0.875rem;
+    }
+
+    #banner-second .box-second .namet {
+        font-size: 1.125rem;
+    }
+
+    #banner-second .box-second .desct {
+        font-size: 2rem;
+    }
+
+    #banner-second .box-second .pricet{
+        font-size: 1rem;
+    }
+
+    #banner-second .box-second button {
+        width: 100px;
+        height: 35px;
+        background:#0077ed;
+    }
+
+    /* wp-products */
+    #wp-products {
+        margin: 80px auto;
+    }
+    
+    #wp-products h2 {
+        font-size:1.5rem;
+    }
+
+    #list-products {
+    }
+
+    #list-products .item {
+        width: 46.5%;
+        max-width: 200px;
+        margin-bottom: 30px;
+    }
+        
+    #list-products .item .name {
+
+        margin-top:21px;
+        font-size: 1.125rem;
+    }
+
+    #list-products .item .desc {
+
+        font-size: 0.9rem;
+    }
+
+    #list-products .item .price {
+
+        font-size: 1rem;
+    }
+
+    .description .description-item .item-left{
+        width: 50%;
+    }
+
+    .description .description-item .item-left img{
+
+    }
+
+    .description .description-item .item-right{
+        width: 50%;
+    }
+
+    .description .description-item .item-right h3{
+        font-size: 1.25rem;
+        max-width: 400px;
+        width: 102%;
+    }
+
+    .description .description-item .item-right p{
+        font-size: 0.875rem;
+        max-width: 400px;
+        width: 102%;
+    }
+
+    .description .description-item2 .item-left{
+        width: 50%;
+    }
+
+    .description .description-item2 .item-left img{
+
+    }
+
+    .description .description-item2 .item-right{
+        width: 50%;
+    }
+
+    .description .description-item2 .item-right h3{
+        font-size: 1.25rem;
+        max-width: 400px;
+        width: 102%;
+    }
+
+    .description .description-item2 .item-right p{
+        font-size: 0.875rem;
+        max-width: 400px;
+        width: 102%;
+    }
+    
+    
+    /* footer */
+    footer {
+        margin: 40px auto 0;
+    }
+    .shop h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .location p {
+        font-size: 0.65rem;
+        line-height:13px;
+    }
+    .mxh h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .mxh .icons {
+        width: 90%;
+        height: 20px;
+    }
+
+    .mxh ul li {
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 2% 0 0 6%;
+    }
+    .fanpage{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .fanpage h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .fanpage p{
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 3% 0 0;
+    }
+
+}

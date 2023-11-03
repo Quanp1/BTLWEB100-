@@ -1,0 +1,152 @@
+@media all and (max-width:600px) {
+    /* nav-bar */
+    .nav-bar{
+        display: none;
+    }
+    .head-container .action{
+        display: block;
+    }
+
+    #checkbox:checked ~ .hamburger {
+        right: 0;
+      }
+  
+      .list-items:nth-child(1){
+        margin-top: 20px;
+      }
+  
+  .list-items {
+      position: relative;
+  }
+  
+  /* Đẩy lùi "Chính sách đổi trả" xuống */
+  .list-items:nth-child(4):hover .item-down {
+      position: absolute;
+      top: 100%; /* Đặt vị trí phần tử con dưới phần tử cha */
+      left: 0;
+      z-index: 1; /* Đảm bảo phần tử con nằm trên các phần tử khác */
+  }
+
+    /* banner */
+    #banner  .box-left h2 {
+        font-size: 1.5rem;
+    }
+    
+    #banner .box-left p {
+        font-size: 0.75rem;
+    }
+
+    /* content */
+
+    .content .body{
+        margin:70px auto 0;
+    }
+
+    .content .head{
+        font-size: 1.5rem;
+    }
+
+    .content .body .banner-samsung .element-samsung h2{
+        font-size: 1.5rem;
+    }
+
+    .content .body .banner-samsung .element-samsung p{
+        font-size: 0.75rem;
+    }
+
+    .content .body .banner-samsung .element-samsung span{
+        margin: .3% auto;
+        font-size: min(200%,1.8vw);
+    }
+    
+    .content .body .banner-samsung .element-samsung button{
+        width: 140px;
+        height: 30px;
+    }
+
+    .content .body .banner-iphone .element-iphone h2{
+        font-size: 1.5rem;
+    }
+
+    .content .body .banner-iphone .element-iphone p{
+        font-size: 0.75rem;
+    }
+
+    .content .body .banner-iphone .element-iphone span{
+        margin: .3% auto;
+        font-size: min(200%,1.8vw);
+    }
+    
+    .content .body .banner-iphone .element-iphone button{
+        width: 140px;
+        height: 30px;
+    }
+
+    /* some */
+    .some{
+        margin: 70px auto 0;
+    }
+
+    .some .body-some .item {
+        width: 23%;
+    }    
+
+    .some .item .stars {
+        width: max(70%,50px);
+    }    
+
+    .some .item .name {
+        font-size: 0.85rem;
+    }
+    
+    .some .body-some .item .desc {
+        font-size: 0.75rem;
+    }
+    
+    .some .body-some .item .price {
+        font-size: min(200%,1.8vw);
+    }
+
+    /* footer */
+    footer {
+        margin: 40px auto 0;
+    }
+    .shop h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .location p {
+        font-size: 0.65rem;
+        line-height:13px;
+    }
+    .mxh h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .mxh .icons {
+        width: 90%;
+        height: 20px;
+    }
+
+    .mxh ul li {
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 2% 0 0 6%;
+    }
+    .fanpage{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .fanpage h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .fanpage p{
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 3% 0 0;
+    }
+
+
+}

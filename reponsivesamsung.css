@@ -1,0 +1,204 @@
+@media all and (max-width:600px) {
+
+     /* nav-bar */
+     .nav-bar{
+        display: none;
+    }
+    .head-container .action{
+        display: block;
+    }
+
+    #checkbox:checked ~ .hamburger {
+        right: 0;
+      }
+  
+      .list-items:nth-child(1){
+        margin-top: 20px;
+      }
+  
+  .list-items {
+      position: relative;
+  }
+  
+  /* Đẩy lùi "Chính sách đổi trả" xuống */
+  .list-items:nth-child(4):hover .item-down {
+      position: absolute;
+      top: 100%; /* Đặt vị trí phần tử con dưới phần tử cha */
+      left: 0;
+      z-index: 1; /* Đảm bảo phần tử con nằm trên các phần tử khác */
+  }
+    /* banner */
+    #banner {
+        height: 470px;
+        padding:0px 6%;
+    }
+
+    #banner  .box-left h2 {
+        margin-top: 20px;
+        font-size: 1.125rem;
+    }
+    
+    #banner .box-left p {
+        font-size: 0.875rem;
+    }
+    
+    #banner .box-left button {
+        width: 100px;
+        height: 35px;
+    }
+    
+    #banner .box-right {
+        padding-left: 10px;
+
+    }
+
+    #banner .box-right img {
+
+    }
+        
+    #banner .box-right img:nth-child(1)
+    {
+        width: min(40%,70px);
+        height: 45%;
+
+    }
+    #banner .box-right img:nth-child(2)
+    {    
+        width: min(40%,80px);
+        height: 60%;
+
+    }
+    #banner .box-right img:nth-child(3){
+        width: min(40%,70px);
+        height: 45%;
+
+    }
+
+    /* wp-products */
+    #wp-products {
+        margin: 80px auto;
+    }
+    
+    #wp-products h2 {
+        font-size:1.5rem;
+    }
+
+    #list-products {
+    }
+
+    #list-products .item {
+        width: 46.5%;
+        max-width: 200px;
+        margin-bottom: 30px;
+    }
+        
+    #list-products .item .name {
+
+        margin-top:21px;
+        font-size: 1.125rem;
+    }
+
+    #list-products .item .desc {
+
+        font-size: 0.9rem;
+    }
+
+    #list-products .item .price {
+
+        font-size: 1rem;
+    }
+
+    .description .description-item .item-left{
+        width: 50%;
+    }
+
+    .description .description-item .item-left img{
+
+    }
+
+    .description .description-item .item-right{
+        width: 50%;
+    }
+
+    .description .description-item .item-right h3{
+        font-size: 1.25rem;
+        max-width: 400px;
+        width: 102%;
+    }
+
+    .description .description-item .item-right p{
+        font-size: 0.875rem;
+        max-width: 400px;
+        width: 102%;
+    }
+
+    .description .description-item2 .item-left{
+        width: 50%;
+    }
+
+    .description .description-item2 .item-left img{
+
+    }
+
+    .description .description-item2 .item-right{
+        width: 50%;
+    }
+
+    .description .description-item2 .item-right h3{
+        font-size: 1.25rem;
+        max-width: 400px;
+        width: 102%;
+    }
+
+    .description .description-item2 .item-right p{
+        font-size: 0.875rem;
+        max-width: 400px;
+        width: 102%;
+    }
+    
+    
+    /* footer */
+    footer {
+        margin: 40px auto 0;
+    }
+    .shop h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .location p {
+        font-size: 0.65rem;
+        line-height:13px;
+    }
+    .mxh h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .mxh .icons {
+        width: 90%;
+        height: 20px;
+    }
+
+    .mxh ul li {
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 2% 0 0 6%;
+    }
+    .fanpage{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .fanpage h3{
+        font-size: 1rem;
+        line-height:17px;
+    }
+    .fanpage p{
+        font-size: 0.65rem;
+        line-height:13px;
+        margin: 3% 0 0;
+    }
+    .fanpage a p{
+        font-size: 0.65rem;
+    }
+
+}

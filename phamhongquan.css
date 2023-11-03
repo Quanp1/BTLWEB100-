@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,400&family=Work+Sans:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header */
+.head-container{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    margin: 10px auto 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.head-container a{
+    text-decoration: none;
+    color: black;
+}
+.nav-belt{
+    border: solid 2px black;
+    width: 130px;
+}
+.nav-belt h1{
+    font-size: 2rem;
+}
+.nav-bar {
+    display: flex;
+}
+.nav-bar .ul-items {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .ul-items .list-items {
+    margin-right: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 300;
+    position: relative;
+    cursor: pointer;
+}
+.nav-bar .ul-items .list-items:hover{
+    border-radius: 10px;
+    background-color: gray;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.list-items .item-down{
+    display:none;
+    position: absolute;
+    margin: 0.5rem 0;
+    background-color: #f2f2f2;
+    height: 50px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.list-items .item-down:before{
+    content: "";
+    height: 0.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    transform: translateY(-100%);
+}
+.list-items:hover .item-down{
+    display: block;
+}
+.list-items .item-down .down-item{
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 300;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+
+.list-items .item-down li:hover{
+    background-color: rgb(202, 194, 194);
+    transition: all 0.3s ease-in-out;
+
+}
+.list-items .item-down:first-child{
+    border-radius: 5px 5px 0 0;
+}
+.list-items .item-down:last-child{
+    border-radius: 0 0 5px 5px;
+}
+.nav-bar .ul-items .list-items a {
+    text-decoration: none;
+    color: black;
+}
+.head-container .action{
+    display: none;
+}
+
+
+.hamburger {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: -30%;
+    width: 30%;
+    height: 100%;
+    background-color: gray; /* Màu nền của menu */
+    transition: right 0.5s; /* Thời gian chuyển đổi */
+  }
+  
+  #checkbox {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    opacity: 0;
+  }
+  input:checked ~ .hamburger {
+    display: block;
+  }
+
+/* banner */
+#banner {
+    width: 100%;
+    background-image :url("./assets/img/z4752373602035_08bd33eab6404276991a1c0d021c66dc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+    margin-top:100px;
+    display: flex;
+    z-index: 1;
+}
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+
+#banner .box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#banner  .box-left h2 {
+    margin-top: 40px;
+    color:whitesmoke;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#banner .box-left p {
+    color: whitesmoke;;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* content */
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.content {
+    margin: 50px auto;
+    height: 500px;
+    width: 55%;
+    border: 1px solid black;
+    background-color: rgba(233, 186, 186, 0.205);
+}
+
+.content .info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.content .info .float-left {
+    width: min(30%,300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.content .info .avatar {
+    height: 300px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.content .info .float-left p {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 10px auto;
+}
+.content .info .float-left span {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-align: center;
+}
+.content .info .float-right {
+    width: 50%;
+    margin-right: 20px;
+}
+.content .info .float-right div {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 4px 5px;
+    font-style: italic;
+    font-weight: 100px;
+    font-size: 0.875rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.content .info .float-right p{
+    font-weight: 100px;
+    font-size: 0.875rem;
+    width: 100%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin: 70px auto 0;
+    /* top: 100px; */
+    border-radius: 10px;
+    padding: 2%;
+    height: auto;
+    font-size: 14px;
+    justify-content: space-between;
+    color: black;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.shop h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height:25px;
+}
+.location p {
+    margin-left: 6%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height:20px;
+}
+.mxh {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.mxh h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height:25px;
+    margin-bottom: 5px;
+}
+.mxh .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    height: 30px;
+}
+.mxh .icons a{
+    text-decoration: none;
+    color: black;
+}
+.mxh i {
+    cursor: pointer;
+}
+.mxh ul li {
+    margin-left: 6%;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height:20px;
+}
+.mxh ul li a{
+    text-decoration: none;
+    color: black;
+}
+.fanpage{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.fanpage h3{
+    line-height:25px;
+}
+.fanpage p{
+    line-height:20px;
+}
